@@ -6,3 +6,5 @@ const ingredients = [
   'Herbs',
   'Condiments',
 ];
+document.createElement(<li>'name'</li>)
+document.createAttribute(class)

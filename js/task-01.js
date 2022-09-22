@@ -1,7 +1,7 @@
-const categories = document.querySelector('categories.length');
-console.log(categories);
+const categories = document.querySelector('#categories');
+console.log(categories.length);
 
-categories.forEach(function (number, li.item) {
-    console.log(`<h2> ${li.item}, wartość ${number}</h2>`);
+categories.forEach(function (number, item) {
+    console.log(`<h2> ${item}, wartość ${number}</h2>`);
   });
 
