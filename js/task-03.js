@@ -17,5 +17,6 @@ images.forEach(element => {
   const newElement = document.createElement("img");
   newElement.textContent = (element);
   class item {element};
-list.append(newElement)});
+gallery.append(newElement)
+images.insertAdjacentHTML("beforeend", newElement);});
 console.log(gallery);
