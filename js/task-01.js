@@ -1,8 +1,7 @@
-const categories = document.querySelector('#categories');
+const categories = document.querySelectorAll('.item');
 console.log(categories.length);
 
 categories.forEach(category => {
-  querySelectorAll('.li')
-  UL.length
+  category.querySelectorAll("li")
 });
 
