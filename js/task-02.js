@@ -6,6 +6,9 @@ const ingredients = [
   'Herbs',
   'Condiments',
 ];
-document.createElement(<li>'name'</li>);
-document.createAttribute(class) = "item";
-
+document.querySelectorAll('');
+document.createElement(li).innerText;
+element.createAttribute(class)
+ingredients.forEach(ingredient => {
+  console.log(`Category: ${category.querySelector("h2").innerText}`);
+});
