@@ -1,7 +1,7 @@
-const counterValue = array.method([currentValue, index, array]) =>
-{
-for (let index = 0; index < array.length; index++) {
-    const element = array[index];
-    
-}
-}
+const singleBtn = document.querySelectorAll("button");
+
+const handleClick = () => {
+  console.log("click event listener callback");
+};
+
+singleBtn.addEventListener("click", handleClick);
