@@ -14,7 +14,7 @@ const images = [
 ];
 const gallery = document.querySelector('.gallery');
 images.forEach(element => {
-  const newElement = document.createElement("img");
+  const newElement = document.createElement(`<img src=${this.images.url}>`);
   newElement.textContent = (element);
   class item {element};
 gallery.append(newElement)
